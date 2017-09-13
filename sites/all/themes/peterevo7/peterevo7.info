@@ -32,6 +32,11 @@ regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
 
 ; ========================================
+; Layout
+; ========================================
+layout[sidebar][stylesheets][all][] = css/layouts/sidebar/pete-sidebar.layout.css
+
+; ========================================
 ; Breakpoints
 ; ========================================
 breakpoints[mobile] = all and (min-width: 0px) and (max-width: 799px)

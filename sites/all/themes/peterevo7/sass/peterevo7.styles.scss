@@ -20,3 +20,30 @@
 @import "abstractions/**/*";
 @import "base/**/*";
 @import "components/**/*";
+
+
+/* test 2 */
+
+@include breakpoint($tab) {
+
+	.l-page {
+		background-color: red;
+	}
+		
+}
+
+@include breakpoint($tabwide) {
+		
+	.l-page {
+		background-color: yellow;
+	}
+}
+
+@include breakpoint($desk) {
+
+	.l-page {
+		background-color: green;
+	}
+		
+
+}

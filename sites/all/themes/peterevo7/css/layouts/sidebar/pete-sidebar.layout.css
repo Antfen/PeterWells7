@@ -1,20 +1,20 @@
 /* No files to import found in abstractions/**\/* */
-/* line 1, ../sass/base/_media.scss */
+/* line 1, ../../../sass/base/_media.scss */
 img, media {
   max-width: 100%; }
 
 /* test 2 */
 @media (min-width: 768px) {
-  /* line 29, ../sass/peterevo7.styles.scss */
+  /* line 29, ../../../sass/peterevo7.styles.scss */
   .l-page {
     background-color: red; } }
 @media (min-width: 1024px) {
-  /* line 37, ../sass/peterevo7.styles.scss */
+  /* line 37, ../../../sass/peterevo7.styles.scss */
   .l-page {
     background-color: yellow; } }
 @media (min-width: 1120px) {
-  /* line 44, ../sass/peterevo7.styles.scss */
+  /* line 44, ../../../sass/peterevo7.styles.scss */
   .l-page {
     background-color: green; } }
 
-/*# sourceMappingURL=peterevo7.styles.css.map */
+/*# sourceMappingURL=pete-sidebar.layout.css.map */
