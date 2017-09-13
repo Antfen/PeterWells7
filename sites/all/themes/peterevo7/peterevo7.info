@@ -1,5 +1,5 @@
-name = peterevo7
-description = Please provide a description for your theme.
+name = Peter Evo
+description = Omega4 sub theme for Peter Wells Artist
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
@@ -30,3 +30,11 @@ regions[content] = Content
 regions[sidebar_first] = First Sidebar
 regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
+
+; ========================================
+; Breakpoints
+; ========================================
+breakpoints[mobile] = all and (min-width: 0px) and (max-width: 799px)
+breakpoints[tab] = all and (min-width: 800px) and (max-width: 979px)
+breakpoints[tabwide] = all and (min-width: 980px) and (max-width: 1199px)
+breakpoints[desk] = all and (min-width: 1200px)
