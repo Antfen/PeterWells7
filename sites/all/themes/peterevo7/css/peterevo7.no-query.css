@@ -3,6 +3,37 @@
 img, media {
   max-width: 100%; }
 
+/* line 3, ../sass/components/_navigation.scss */
+.l-region--header {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px; }
+  /* line 8, ../sass/components/_navigation.scss */
+  .l-region--header img {
+    width: 20%; }
+
+/* line 14, ../sass/components/_navigation.scss */
+.l-region--navigation {
+  background-color: #ccc; }
+  /* line 18, ../sass/components/_navigation.scss */
+  .l-region--navigation ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center; }
+    /* line 25, ../sass/components/_navigation.scss */
+    .l-region--navigation ul.menu li.leaf {
+      display: inline-block;
+      padding: 20px; }
+      /* line 29, ../sass/components/_navigation.scss */
+      .l-region--navigation ul.menu li.leaf a {
+        text-decoration: none;
+        color: #ff4400; }
+
 /* test 4 */
+/* line 29, ../sass/peterevo7.styles.scss */
+.l-page {
+  padding-right: 1%;
+  padding-left: 1%; }
 
 /*# sourceMappingURL=peterevo7.no-query.css.map */

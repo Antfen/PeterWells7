@@ -24,10 +24,18 @@
 
 /* test 4 */
 
+// Generic settings
+
+.l-page {
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
 @include breakpoint($tab) {
 
 	.l-page {
-		background-color: red;
+		padding-right: 0;
+		padding-left: 0;
 	}
 		
 }
@@ -35,14 +43,14 @@
 @include breakpoint($tabwide) {
 		
 	.l-page {
-		background-color: yellow;
+		//background-color: yellow;
 	}
 }
 
 @include breakpoint($desk) {
 
 	.l-page {
-		background-color: green;
+		//background-color: green;
 	}
 		
 

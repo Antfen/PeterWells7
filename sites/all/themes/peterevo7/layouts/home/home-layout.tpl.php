@@ -27,6 +27,7 @@
  <!--  <div class="sidebar-intro"></div> -->
 
   <div class="l-main">
+    <div class="l-box"><h2>Main image goes here!!!</h2></div>
     <div class="l-content" role="main">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>

@@ -10,6 +10,7 @@ regions[header] = Header
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted
 regions[help] = Help
+regions[box] = Box
 regions[content] = Content
 regions[footer] = Footer
 

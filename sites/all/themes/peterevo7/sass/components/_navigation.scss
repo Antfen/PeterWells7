@@ -1,0 +1,39 @@
+// Main Menu
+
+.l-region--header {
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 20px;
+
+		img {
+			width: 20%;
+		}
+
+}
+
+.l-region--navigation {
+	background-color: #ccc;
+
+
+	ul.menu {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: center;
+	
+
+		li.leaf {
+			display: inline-block;
+			padding: 20px;
+
+			a {
+			text-decoration: none;
+			color: #ff4400;
+
+			}
+
+		}
+
+	}
+
+}
