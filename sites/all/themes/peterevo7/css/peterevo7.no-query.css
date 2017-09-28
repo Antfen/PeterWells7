@@ -3,32 +3,44 @@
 img, media {
   max-width: 100%; }
 
-/* line 3, ../sass/components/_navigation.scss */
+/* line 3, ../sass/components/_footer.scss */
+.l-footer {
+  background-color: #ccc;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  /* line 12, ../sass/components/_footer.scss */
+  .l-footer .pane-block-1 p {
+    font-size: 12px; }
+
+/* line 3, ../sass/components/_header.scss */
 .l-region--header {
   text-align: center;
   padding-top: 80px;
-  padding-bottom: 20px; }
-  /* line 8, ../sass/components/_navigation.scss */
+  padding-bottom: 5px; }
+  /* line 8, ../sass/components/_header.scss */
   .l-region--header img {
-    width: 20%; }
+    width: 190px; }
 
-/* line 14, ../sass/components/_navigation.scss */
-.l-region--navigation {
-  background-color: #ccc; }
-  /* line 18, ../sass/components/_navigation.scss */
-  .l-region--navigation ul.menu {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center; }
+/* line 9, ../sass/components/_navigation.scss */
+.l-region--navigation ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+  /* line 16, ../sass/components/_navigation.scss */
+  .l-region--navigation ul.menu li.leaf {
+    display: inline-block;
+    padding: 20px; }
+    /* line 20, ../sass/components/_navigation.scss */
+    .l-region--navigation ul.menu li.leaf a {
+      text-decoration: none;
+      color: #ff4400; }
     /* line 25, ../sass/components/_navigation.scss */
-    .l-region--navigation ul.menu li.leaf {
-      display: inline-block;
-      padding: 20px; }
-      /* line 29, ../sass/components/_navigation.scss */
-      .l-region--navigation ul.menu li.leaf a {
-        text-decoration: none;
-        color: #ff4400; }
+    .l-region--navigation ul.menu li.leaf a:hover {
+      color: #000; }
+    /* line 30, ../sass/components/_navigation.scss */
+    .l-region--navigation ul.menu li.leaf a.active {
+      color: #000; }
 
 /* test 4 */
 /* line 29, ../sass/peterevo7.styles.scss */

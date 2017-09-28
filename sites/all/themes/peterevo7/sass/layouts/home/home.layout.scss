@@ -9,3 +9,22 @@
 // Globbing from within sub-folders only works with relative paths.
 //@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
 
+.l-box {
+
+}
+
+.l-box{
+	margin-top: 50px;
+	//position: relative;
+	min-height: 600px;
+	width: 100%;
+	background-image: url("../../../images/norlunga-panorama.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	//background-attachment: fixed;
+	overflow: hidden; 
+}

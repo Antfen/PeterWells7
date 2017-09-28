@@ -1,0 +1,41 @@
+// Footer
+
+.l-footer {
+	background-color: #ccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+
+		// Copyright styles
+		.pane-block-1 {
+			
+			p {
+				font-size: 12px;
+			}
+
+		}
+
+
+
+}
+
+
+@include breakpoint($tab) {
+
+	
+
+	.l-footer {
+	@include clearfix;
+
+		// Copyright styles
+
+		.pane-block-1 {
+			@include grid-span(2, 11); //sets it to 2 columns wide, that starts with the 11th column
+
+		}
+
+	}
+
+	
+
+}
