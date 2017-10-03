@@ -29,6 +29,12 @@
 .l-page {
 	padding-right: 1%;
 	padding-left: 1%;
+
+	.pane-page-slogan {
+		font-family: Verdana, Geneva, sans-serif;
+		font-size: 20px;
+
+	}
 }
 
 @include breakpoint($tab) {
@@ -36,6 +42,12 @@
 	.l-page {
 		padding-right: 0;
 		padding-left: 0;
+
+		.pane-page-slogan {
+		/* font-family: Verdana, Geneva, sans-serif;
+		font-size: 36px; */
+
+	}
 	}
 		
 }
