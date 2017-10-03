@@ -1,6 +1,6 @@
+
+
 // Main Menu
-
-
 
 .l-region--navigation {
 	//background-color: #ccc;
@@ -80,3 +80,95 @@
 	}
 
 }
+
+
+//Mmenu styles for mobile button
+
+
+.pane-system-main-menu { //hides main menu in mobile
+	display: none;
+}
+
+.mmenu-mobile-button { // Panel class to manage Mmenu mobile button
+	position: relative;
+
+
+	#logo-mobile {
+	    width: 32px;
+	    height: 32px;
+	    padding: 0 4px;
+	    position: absolute;
+	    top: 8px;
+	    right: 0;
+	    cursor: pointer;
+	    text-decoration: none;
+	    font-size: 1px;
+
+	    span.mb-bar {
+	    	display: block;
+		    background-color: #ff0000;
+		    height: 3px;
+		    width: auto;
+		    margin-top: 5px;
+	    }
+
+
+
+	}
+
+}
+
+//Mmenu styles for Mmenu sliding panel
+
+#mmenu_right.mmenu-nav.mm-basic {// Lets override some basic settings!
+
+	background: #000;
+
+		li a {
+					padding-top: 20px;
+					padding-bottom: 20px;
+					padding-left: 40px;
+
+		}
+
+		.mm-list li {
+			border-top: none;
+			border-bottom: none;
+
+		}
+	
+		a.mmenu-mm-list {// Link color
+			color: #fff;
+
+		}
+		a.mmenu-mm-list :hover {// Link hover color
+			color: #666;
+
+		}
+
+		.mmenu-mm-list i {// Lets hide those pesky icons!
+			display: none;
+
+		}
+
+
+}
+
+@include breakpoint($tabwide) {
+
+	.pane-system-main-menu { //Show the main menu on Tablets Wide or greater
+	display: block;
+	}
+
+	.mmenu-mobile-button { //Hide on Tablets Wide or greater
+		display: none;
+	}
+
+	#logo-mobile { //Hide on Tablets Wide or greater
+	    display: none;
+
+	}			
+
+}
+
+
