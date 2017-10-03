@@ -19,7 +19,8 @@
 
 			a {
 			text-decoration: none;
-			color: #ff4400;
+			color: #ff9933;
+			display: block;
 			}
 
 			a:hover {
@@ -29,6 +30,48 @@
 
 			a.active {
 			color: #000;
+
+			}
+
+		}
+
+	}
+
+}
+
+.l-region--sidebar-first {
+
+	ul.menu {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: left;
+	
+
+		li.leaf {
+			list-style: none;
+			padding: 3px;
+			border: 1px solid #ccc;
+			margin-top: 10px;
+			border-radius: 5px;
+			background-color: #ffebcc;
+
+			a {
+			text-decoration: none;
+			color: #000;
+			font-size: 12px;
+			font-weight: normal;
+			font-variant: normal;
+			display: block;
+			}
+
+			a:hover {
+			color: #ff9933;
+
+			}
+
+			a.active {
+			color: #ff9933;
 
 			}
 

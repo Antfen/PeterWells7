@@ -9,3 +9,22 @@
 // Globbing from within sub-folders only works with relative paths.
 //@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
 
+.l-main {
+	@include clearfix;
+}
+
+@include breakpoint($tab) {
+
+	.l-region--sidebar-first {
+		@include grid-span(2, 10); //sets it to 2 columns wide, that starts with the 10th column
+	}
+
+	.l-content {
+		@include grid-span(8, 2); //sets it to 8 columns wide, that starts with the 2nd column
+	}
+}
+
+@include breakpoint($desk) {
+
+
+}
