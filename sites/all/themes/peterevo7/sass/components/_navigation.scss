@@ -1,9 +1,8 @@
 
 
-// Main Menu
+//Main Menu
 
 .l-region--navigation {
-	//background-color: #ccc;
 
 
 	ul.menu {
@@ -19,6 +18,7 @@
 
 			a {
 			text-decoration: none;
+			font-size: 20px;
 			color: #ff9933;
 			display: block;
 			}
@@ -39,6 +39,9 @@
 
 }
 
+
+//Right Hand Navigation
+
 .l-region--sidebar-first {
 
 	ul.menu {
@@ -54,7 +57,7 @@
 			border: 1px solid #ccc;
 			margin-top: 10px;
 			border-radius: 5px;
-			background-color: #ffebcc;
+			//background-color: #ffebcc;
 
 			a {
 			text-decoration: none;
@@ -81,6 +84,28 @@
 
 }
 
+@include breakpoint($tab) {
+
+	ul.menu {
+		//max-width: 50%;
+		border: red 1px solid;
+
+	}
+
+
+}
+
+@include breakpoint($tabwide) {
+
+	ul.menu {
+		//max-width: 50%;
+		border: green 1px solid;
+
+	}
+
+
+}
+
 
 //Mmenu styles for mobile button
 
@@ -89,7 +114,7 @@
 	display: none;
 }
 
-.mmenu-mobile-button { // Panel class to manage Mmenu mobile button
+.mmenu-mobile-button { //Panel class to manage Mmenu mobile button
 	width: 50px;
 	margin: 10px auto;
 
@@ -118,35 +143,40 @@
 
 //Mmenu styles for Mmenu sliding panel
 
-#mmenu_right.mmenu-nav.mm-basic {// Lets override some basic settings!
+#mmenu_right.mmenu-nav.mm-basic {//Lets override some basic settings!
+
+	.mm-header {
+		 background: #000;
+		 border: none 0;
+	}
+
+	.mm-footer {
+		background-color: #000;
+		font-size: 10px;
+	}
 
 	background: #000;
 
 		li a {
-					padding-top: 20px;
-					padding-bottom: 20px;
-					padding-left: 40px;
-
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 40px;
 		}
 
 		.mm-list li {
 			border-top: none;
 			border-bottom: none;
-
 		}
 	
-		a.mmenu-mm-list {// Link color
+		a.mmenu-mm-list {//Link color
 			color: #fff;
-
 		}
-		a.mmenu-mm-list :hover {// Link hover color
+		a.mmenu-mm-list :hover {//Link hover color
 			color: #666;
-
 		}
 
-		.mmenu-mm-list i {// Lets hide those pesky icons!
+		.mmenu-mm-list i {//Lets hide those pesky icons!
 			display: none;
-
 		}
 
 
