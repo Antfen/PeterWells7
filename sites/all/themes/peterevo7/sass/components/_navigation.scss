@@ -53,16 +53,15 @@
 
 		li.leaf {
 			list-style: none;
-			padding: 3px;
+			padding: 8px;
 			border: 1px solid #ccc;
 			margin-top: 10px;
 			border-radius: 5px;
-			//background-color: #ffebcc;
 
 			a {
 			text-decoration: none;
 			color: #000;
-			font-size: 12px;
+			font-size: 14px;
 			font-weight: normal;
 			font-variant: normal;
 			display: block;
@@ -86,11 +85,46 @@
 
 @include breakpoint($tab) {
 
-	ul.menu {
-		//max-width: 50%;
-		border: red 1px solid;
+	.l-region--sidebar-first {
 
-	}
+		ul.menu {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			text-align: left;
+		
+
+			li.leaf {
+				list-style: none;
+				padding: 3px;
+				border: 1px solid #ccc;
+				margin-top: 10px;
+				border-radius: 5px;
+
+				a {
+				text-decoration: none;
+				color: #000;
+				font-size: 12px;
+				font-weight: normal;
+				font-variant: normal;
+				display: block;
+				}
+
+				a:hover {
+				color: #ff9933;
+
+				}
+
+				a.active {
+				color: #ff9933;
+
+				}
+
+			}
+
+		}
+
+}
 
 
 }
@@ -99,7 +133,7 @@
 
 	ul.menu {
 		//max-width: 50%;
-		border: green 1px solid;
+		//border: green 1px solid;
 
 	}
 

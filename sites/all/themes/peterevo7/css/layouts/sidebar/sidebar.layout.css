@@ -161,7 +161,7 @@ body {
 /* line 3, ../../../sass/components/_header.scss */
 .l-region--header {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 10px;
   padding-bottom: 5px; }
   /* line 8, ../../../sass/components/_header.scss */
   .l-region--header img {
@@ -171,6 +171,10 @@ body {
 .l-header {
   margin-bottom: 50px; }
 
+@media (min-width: 768px) {
+  /* line 22, ../../../sass/components/_header.scss */
+  .l-region--header {
+    padding-top: 80px; } }
 /* line 8, ../../../sass/components/_navigation.scss */
 .l-region--navigation ul.menu {
   margin: 0;
@@ -203,42 +207,62 @@ body {
   /* line 54, ../../../sass/components/_navigation.scss */
   .l-region--sidebar-first ul.menu li.leaf {
     list-style: none;
-    padding: 3px;
+    padding: 8px;
     border: 1px solid #ccc;
     margin-top: 10px;
     border-radius: 5px; }
-    /* line 62, ../../../sass/components/_navigation.scss */
+    /* line 61, ../../../sass/components/_navigation.scss */
     .l-region--sidebar-first ul.menu li.leaf a {
       text-decoration: none;
       color: #000;
-      font-size: 12px;
+      font-size: 14px;
       font-weight: normal;
       font-variant: normal;
       display: block; }
-    /* line 71, ../../../sass/components/_navigation.scss */
+    /* line 70, ../../../sass/components/_navigation.scss */
     .l-region--sidebar-first ul.menu li.leaf a:hover {
       color: #ff9933; }
-    /* line 76, ../../../sass/components/_navigation.scss */
+    /* line 75, ../../../sass/components/_navigation.scss */
     .l-region--sidebar-first ul.menu li.leaf a.active {
       color: #ff9933; }
 
 @media (min-width: 768px) {
-  /* line 89, ../../../sass/components/_navigation.scss */
-  ul.menu {
-    border: red 1px solid; } }
-@media (min-width: 1024px) {
-  /* line 100, ../../../sass/components/_navigation.scss */
-  ul.menu {
-    border: green 1px solid; } }
-/* line 113, ../../../sass/components/_navigation.scss */
+  /* line 90, ../../../sass/components/_navigation.scss */
+  .l-region--sidebar-first ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left; }
+    /* line 97, ../../../sass/components/_navigation.scss */
+    .l-region--sidebar-first ul.menu li.leaf {
+      list-style: none;
+      padding: 3px;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+      border-radius: 5px; }
+      /* line 104, ../../../sass/components/_navigation.scss */
+      .l-region--sidebar-first ul.menu li.leaf a {
+        text-decoration: none;
+        color: #000;
+        font-size: 12px;
+        font-weight: normal;
+        font-variant: normal;
+        display: block; }
+      /* line 113, ../../../sass/components/_navigation.scss */
+      .l-region--sidebar-first ul.menu li.leaf a:hover {
+        color: #ff9933; }
+      /* line 118, ../../../sass/components/_navigation.scss */
+      .l-region--sidebar-first ul.menu li.leaf a.active {
+        color: #ff9933; } }
+/* line 147, ../../../sass/components/_navigation.scss */
 .pane-system-main-menu {
   display: none; }
 
-/* line 117, ../../../sass/components/_navigation.scss */
+/* line 151, ../../../sass/components/_navigation.scss */
 .mmenu-mobile-button {
   width: 50px;
   margin: 10px auto; }
-  /* line 122, ../../../sass/components/_navigation.scss */
+  /* line 156, ../../../sass/components/_navigation.scss */
   .mmenu-mobile-button #logo-mobile {
     width: 50px;
     height: auto;
@@ -246,7 +270,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     font-size: 1px; }
-    /* line 130, ../../../sass/components/_navigation.scss */
+    /* line 164, ../../../sass/components/_navigation.scss */
     .mmenu-mobile-button #logo-mobile span.mb-bar {
       display: block;
       background-color: #ff0000;
@@ -254,46 +278,46 @@ body {
       width: auto;
       margin-top: 9px; }
 
-/* line 146, ../../../sass/components/_navigation.scss */
+/* line 180, ../../../sass/components/_navigation.scss */
 #mmenu_right.mmenu-nav.mm-basic {
   background: #000; }
-  /* line 148, ../../../sass/components/_navigation.scss */
+  /* line 182, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic .mm-header {
     background: #000;
     border: none 0; }
-  /* line 153, ../../../sass/components/_navigation.scss */
+  /* line 187, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic .mm-footer {
     background-color: #000;
     font-size: 10px; }
-  /* line 160, ../../../sass/components/_navigation.scss */
+  /* line 194, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic li a {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px; }
-  /* line 166, ../../../sass/components/_navigation.scss */
+  /* line 200, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic .mm-list li {
     border-top: none;
     border-bottom: none; }
-  /* line 171, ../../../sass/components/_navigation.scss */
+  /* line 205, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic a.mmenu-mm-list {
     color: #fff; }
-  /* line 174, ../../../sass/components/_navigation.scss */
+  /* line 208, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic a.mmenu-mm-list :hover {
     color: #666; }
-  /* line 178, ../../../sass/components/_navigation.scss */
+  /* line 212, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic .mmenu-mm-list i {
     display: none; }
 
 @media (min-width: 1024px) {
-  /* line 187, ../../../sass/components/_navigation.scss */
+  /* line 221, ../../../sass/components/_navigation.scss */
   .pane-system-main-menu {
     display: block; }
 
-  /* line 191, ../../../sass/components/_navigation.scss */
+  /* line 225, ../../../sass/components/_navigation.scss */
   .mmenu-mobile-button {
     display: none; }
 
-  /* line 195, ../../../sass/components/_navigation.scss */
+  /* line 229, ../../../sass/components/_navigation.scss */
   #logo-mobile {
     display: none; } }
 /* test 4 */

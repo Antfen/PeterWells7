@@ -2,7 +2,7 @@
 
 .l-region--header {
 	text-align: center;
-	padding-top: 80px;
+	padding-top: 10px;
 	padding-bottom: 5px;
 
 		img {
@@ -14,4 +14,13 @@
 .l-header {
 	//background-color: #ccc;
 	margin-bottom: 50px;
+}
+
+
+@include breakpoint($tab) {
+
+	.l-region--header {
+		padding-top: 80px;
+	}
+
 }
