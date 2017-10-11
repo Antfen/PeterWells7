@@ -15,16 +15,33 @@
 
 .l-box{
 	margin-top: 50px;
-	//position: relative;
-	min-height: 600px;
+	min-height: 475px;
 	width: 100%;
-	background-image: url("../../../images/home_restless_ocean.jpg");
+	background-image: url("../../../images/home_restless_ocean-mobile.jpg");
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	//background-attachment: fixed;
 	overflow: hidden; 
+}
+
+@include breakpoint($tab) {
+
+	.l-box{
+	min-height: 600px;
+	background-image: url("../../../images/home_restless_ocean-tab.jpg");
+	}
+	
+		
+}
+
+@include breakpoint($desk) {
+
+	.l-box{
+	background-image: url("../../../images/home_restless_ocean-desk.jpg");
+	}
+	
+		
 }

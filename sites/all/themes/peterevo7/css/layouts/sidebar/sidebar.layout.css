@@ -334,11 +334,7 @@ body {
   /* line 42, ../../../sass/peterevo7.styles.scss */
   .l-page {
     padding-right: 0;
-    padding-left: 0; }
-    /* line 46, ../../../sass/peterevo7.styles.scss */
-    .l-page .pane-page-slogan {
-      /* font-family: Verdana, Geneva, sans-serif;
-      font-size: 36px; */ } }
+    padding-left: 0; } }
 /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
 .l-main:after {
   content: "";

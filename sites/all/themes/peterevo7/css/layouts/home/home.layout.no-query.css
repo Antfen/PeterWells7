@@ -239,9 +239,9 @@ body {
 /* line 16, ../../../sass/layouts/home/home.layout.scss */
 .l-box {
   margin-top: 50px;
-  min-height: 600px;
+  min-height: 475px;
   width: 100%;
-  background-image: url("../../../images/home_restless_ocean.jpg");
+  background-image: url("../../../images/home_restless_ocean-mobile.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
