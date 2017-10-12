@@ -21,9 +21,6 @@
 @import "base/**/*";
 @import "components/**/*";
 
-
-/* test 4 */
-
 // Generic settings
 
 .l-page {
@@ -49,16 +46,10 @@
 
 @include breakpoint($tabwide) {
 		
-	.l-page {
-		//background-color: yellow;
-	}
+
 }
 
 @include breakpoint($desk) {
-
-	.l-page {
-		//background-color: green;
-	}
 		
 
 }
