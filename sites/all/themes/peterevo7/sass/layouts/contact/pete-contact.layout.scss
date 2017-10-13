@@ -8,23 +8,9 @@
 // Globbing from within sub-folders only works with relative paths.
 //@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
 
-#clientsidevalidation-webform-client-form-3-errors {
-	padding: 0;
-	float: none;
-	width: auto;
-	border: 0 none;
-
-	ul {
-	margin-left: 5%;
-
-		.error {
-			color: #ff0000;
-		}
-
-
+.links {//Hide the 'back to webform' link on the Confirmation message
+		display: none;
 	}
-
-}
 
 
 @include breakpoint($tab) {

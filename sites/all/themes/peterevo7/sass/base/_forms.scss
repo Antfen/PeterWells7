@@ -70,6 +70,31 @@
 			}
 
 }
+// Webform validation messages
+.messages {
+	margin: 6px 0;
+    padding: 10px 10px 10px 50px;
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    border: 0 none;
+
+    ul {
+    	list-style: none;
+
+    	li .error {
+    		color: #ff0000;
+    	}
+    }
+}
+
+.webform-confirmation {
+
+	.links {
+		display: none;
+	}
+	
+}
+
 
 .l-page {
 	
