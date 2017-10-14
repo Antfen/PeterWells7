@@ -330,17 +330,17 @@ body {
   /* line 223, ../sass/components/_navigation.scss */
   #logo-mobile {
     display: none; } }
-/* line 26, ../sass/peterevo7.styles.scss */
+/* line 27, ../sass/peterevo7.styles.scss */
 .l-page {
   padding-right: 1%;
   padding-left: 1%; }
-  /* line 30, ../sass/peterevo7.styles.scss */
+  /* line 31, ../sass/peterevo7.styles.scss */
   .l-page .pane-page-slogan {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 20px; }
 
 @media (min-width: 768px) {
-  /* line 39, ../sass/peterevo7.styles.scss */
+  /* line 40, ../sass/peterevo7.styles.scss */
   .l-page {
     padding-right: 0;
     padding-left: 0; } }
