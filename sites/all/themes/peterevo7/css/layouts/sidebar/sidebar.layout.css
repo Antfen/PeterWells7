@@ -73,12 +73,8 @@
     .messages ul li .error {
       color: #ff0000; }
 
-/* line 92, ../../../sass/base/_forms.scss */
-.webform-confirmation .links {
-  display: none; }
-
 @media (min-width: 768px) {
-  /* line 103, ../../../sass/base/_forms.scss */
+  /* line 96, ../../../sass/base/_forms.scss */
   .l-page .webform-submit {
     max-width: 20%; } }
 
@@ -366,6 +362,17 @@ body {
   /* line 22, ../../../sass/layouts/sidebar/sidebar.layout.scss */
   .l-content {
     width: 66.10169%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.47458%;
+    clear: none; }
+
+  /* line 28, ../../../sass/layouts/sidebar/sidebar.layout.scss */
+  .page-node-16 .l-region--sidebar-first {
+    display: none; }
+  /* line 32, ../../../sass/layouts/sidebar/sidebar.layout.scss */
+  .page-node-16 .l-content {
+    width: 83.05085%;
     float: left;
     margin-right: -100%;
     margin-left: 8.47458%;

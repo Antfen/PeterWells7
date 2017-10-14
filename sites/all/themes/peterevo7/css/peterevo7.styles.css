@@ -73,12 +73,8 @@
     .messages ul li .error {
       color: #ff0000; }
 
-/* line 92, ../sass/base/_forms.scss */
-.webform-confirmation .links {
-  display: none; }
-
 @media (min-width: 768px) {
-  /* line 103, ../sass/base/_forms.scss */
+  /* line 96, ../sass/base/_forms.scss */
   .l-page .webform-submit {
     max-width: 20%; } }
 
