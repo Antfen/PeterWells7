@@ -49,7 +49,7 @@
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
-  <meta name="description" content="Biography Born in Yorkshire. Hons. degree in English Literature, Leeds University. An established painter, Peter Wells has exhibited in numerous group shows throughout the UK including the Royal Academy Summer Exhibition, The Discerning Eye and Hunting Art Prizes. In 2000 he presented a major solo exhibition of paintings at the John Harriman Gallery, Lima, South America." />
+  <!-- <meta name="description" content="Biography Born in Yorkshire. Hons. degree in English Literature, Leeds University. An established painter, Peter Wells has exhibited in numerous group shows throughout the UK including the Royal Academy Summer Exhibition, The Discerning Eye and Hunting Art Prizes. In 2000 he presented a major solo exhibition of paintings at the John Harriman Gallery, Lima, South America." />  -->
   <?php print $styles; ?>
   <?php print $scripts; ?>
 </head>
