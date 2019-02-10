@@ -1,3 +1,4 @@
+<meta name="description" content="Peter Wells Artist can be contacted by using the Contact form below." />
 <div id="mm-page">
   <div class="l-page">
     <header class="l-header" role="banner">

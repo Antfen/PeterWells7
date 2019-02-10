@@ -1,3 +1,5 @@
+<meta name="description" content="Peter Wells has exhibited in numerous group shows throughout the UK including the Royal Academy Summer Exhibition, The Discerning Eye and Hunting Art Prizes. In 2000 he presented a major solo exhibition of paintings at the John Harriman Gallery, Lima, South America." />
+
 <div id="mm-page">
   <div class="l-page">
     <header class="l-header" role="banner">
