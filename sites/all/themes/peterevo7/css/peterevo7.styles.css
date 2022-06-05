@@ -352,3 +352,36 @@ body p {
     padding-left: 0;
   }
 }
+
+/* styles for mobile menu */
+.mean-container .mean-bar {
+  background-color: #fff;
+  float: none;
+  position: absolute;
+  top: 111px;
+}
+
+.mean-container a.meanmenu-reveal {
+  position: relative;
+  margin: 0 auto;
+  background: #fff;
+  color: #ff4400;
+}
+
+.mean-container a.meanmenu-reveal span {
+  background:  #ff4400;
+}
+
+.mean-container .mean-nav li {
+    background-color: #ccc;
+}
+
+.mean-container .mean-nav ul li a {
+    color:  #000;
+}
+
+.mean-container .mean-nav {
+    margin-top: 0;
+}
+
+
